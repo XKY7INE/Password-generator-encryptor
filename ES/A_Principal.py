@@ -2,9 +2,7 @@ import random
 import pandas as pd 
 from genericpath import exists
 from werkzeug.security import generate_password_hash
-from C_encrip_archivo import encriptar
-from C_encrip_archivo import desencriptar
-
+from C_encrip_archivo import encriptar, desencriptar
 
 minus = "abcdefghijklmnopqrstuvwxyz"
 mayus = minus.upper()

@@ -2,8 +2,7 @@ import random
 import pandas as pd 
 from genericpath import exists
 from werkzeug.security import generate_password_hash
-from C_encrip_file import encriptar
-from C_encrip_file import desencriptar
+from C_encrip_file import encriptar, desencriptar
 
 
 minus = "abcdefghijklmnopqrstuvwxyz"

@@ -3,13 +3,13 @@ from werkzeug.security import check_password_hash
 
 def check(archivo, rpu_3):
     datos = pd.read_csv(archivo)
-### Contar el numero de contraseñas existentes ###
+### Count the number of existing passwords ###
     with open(archivo) as myfile:
      total_lines = sum(1 for line in myfile)
-### Iterar en cada una de las filas del archivo ###
+### Iterate through each row of the file ###
     for i in range(total_lines-1):
         pass_word=datos.iat[i,0]
-### Comprobar cada encriptado con cada contraseña ###
+### Check every encryption with every password ###
         if(check_password_hash(rpu_3, pass_word)==True):
             print("\nThe password is: ", pass_word, "\n")
             return

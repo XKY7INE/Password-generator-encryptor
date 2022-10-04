@@ -2,19 +2,19 @@ from cryptography.fernet import Fernet
 from genericpath import exists
 from pathlib import Path
 
-##### Existencia del archivo .key #####
+##### Exist file .key #####
 fileName = "filekey.key"
 if (exists(fileName)==False):
-########## Generar clave ##############
+########## Generate key ##############
     key = Fernet.generate_key() 
     with open('filekey.key', 'wb') as filekey: 
      filekey.write(key)
-########## Lectura de clave ############
+########## Key reading ############
 with open('filekey.key', 'rb') as filekey: 
     key = filekey.read()   
 fernet = Fernet(key) 
 
-############## Encriptar ############## 
+############## Encrypt ############## 
 def encriptar(archivo_encriptar):
     if (exists(archivo_encriptar)==True):
         with open(archivo_encriptar, 'rb') as file: 
@@ -26,7 +26,7 @@ def encriptar(archivo_encriptar):
     else: 
         print("The file name entered not exist.")
 
-############## Desencriptar ###########
+##############  Dencrypt ###########
 def desencriptar(archivo_desencriptar):
     if (exists(archivo_desencriptar)==True):
         with open(archivo_desencriptar, 'rb') as enc_file: 

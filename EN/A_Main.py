@@ -19,7 +19,7 @@ print("Menu: ")
 print("\n1) Create and encrypt password at random. \n2) Encrypt existing passwords. \n3) Show passwords already encrypted with the program. \n4) Encrypt previously saved file. \n5) Decrypt previously encrypted file with the program. \n6) Exit.")
 op_usuario=int(input("Chouse option: "))
 
-### Crear y encriptar contraseñas al azar ###
+### Create and encrypt random passwords ###
 if (op_usuario==1):
     rpu_1=int(input("\nEnter the number of passwords you want to generate: "))
     for i in range(rpu_1):
@@ -37,19 +37,19 @@ if (op_usuario==1):
         print("\n")
     save_or_not=int(input("Menu: \n1) Save passwords and encrypted. \n2) Exit. \nChoose an option: "))
     if(save_or_not==1):
-        ## Guardar contraseñas ##
+        ## Save passwords ##
         df_password=pd.DataFrame(password, columns=['PASSWORDS'])
         claves=str(input("\nHow you want to save passwords: "))
         claves=claves+csv
         df_password.to_csv(claves, index=False)
 
-        ## Guardar encriptado ##
+        ## Save encrypted ##
         df_encriptado=pd.DataFrame(password_encriptado, columns=['PASSWORDS ENCRYPTED'])
         encriptado=str(input("\nHow you want to save passwords encrypted: "))
         encriptado=encriptado+csv
         df_encriptado.to_csv(encriptado, index=False)
 
-        ## Encriptar archivo contraseñas ##
+        ## Encrypt file passwords ##
         encrip_archivo=str(input("\nYou want to encrypt the password file? Yes (y) or Not (n): "))
         encrip_archivo=encrip_archivo.upper()
         while (encrip_archivo != "Y" and encrip_archivo != "YES" and encrip_archivo != "N" and encrip_archivo != "NOT"):
@@ -63,7 +63,7 @@ if (op_usuario==1):
     else:
         print("\nThank you for choosing our services.\n")
 
-### Encriptar contraseñas ya existentes ###
+### Encrypt exist password ###
 elif (op_usuario==2):
     rpu_2=int(input("Enter the number of passwords you want to encrypt: "))
     for i in range(rpu_2):
@@ -106,7 +106,7 @@ elif (op_usuario==2):
         print("\nThank you for choosing our services.\n")
 
 
-### Mostrar contraseñas ya encriptadas ###
+### Show already encrypted passwords ###
 elif (op_usuario==3):
     from B_check_my_password import check
     print("\nPlease make sure that the file where the passwords are located is not encrypted.")
@@ -120,15 +120,15 @@ elif (op_usuario==3):
     else:
         print("\nThe file with name entered not exist.\n")
 
-### Encreiptar archivo ###
+### Encrypt file  ###
 elif (op_usuario==4):
     encriptar(str(input("\nEnter the file name: "))+csv)
 
-### Desencriptar archivo ###
+### Dencrypt file  ###
 elif (op_usuario==5):
     desencriptar(str(input("\nEnter the file name: "))+csv)
 
-###  Salir del programa ###
+### Exit program ###
 else:
     print("\nThank you for choosing our services.\n")
 

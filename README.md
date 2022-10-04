@@ -1,4 +1,13 @@
 ***7ive up your info, 7ive up your world***
+# Purpose
+As a free project, that the community is interested and participates by helping as a joint is the main objective of this activity.
+
+# Mission
+Offer the user a tool with which they can create, generate and encrypt passwords in a secure way. Mainly, we want to create a software that allows us a greater
+range of customization focused on more secure passwords.
+
+
+
 # Password-generator-encryptor
 
 The internet world usually makes their users untrust it, this is boosted by the fact that their personal data can be exposed or filtered without their consent,

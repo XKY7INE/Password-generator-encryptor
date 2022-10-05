@@ -2,12 +2,14 @@
 # Purpose
 As a free project, that the community is interested and participates by helping as a joint is the main objective of this activity.
 
+# Vision
+At XKY7INE what we are looking for is mainly a software that allows people to save their passwords by encrypting them, avoiding: data theft due to insecure passwords and the reuse of passwords in all their accounts. The method we seek to apply is through the use of a kind of keychain (the password generator) located on their devices where they can carry an encrypted list of their passwords.
+
 # Mission
 Offer the user a tool with which they can create, generate and encrypt passwords in a secure way. Mainly, we want to create a software that allows us a greater
 range of customization focused on more secure passwords.
 
-# Vision
-At XKY7INE what we are looking for is mainly a software that allows people to save their passwords by encrypting them, avoiding: data theft due to insecure passwords and the reuse of passwords in all their accounts. The method we seek to apply is through the use of a kind of keychain (the password generator) located on their devices where they can carry an encrypted list of their passwords.
+
 
 # Password-generator-encryptor
 

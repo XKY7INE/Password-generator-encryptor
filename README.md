@@ -27,3 +27,8 @@ You can open terminal and clone the repository:
 ```
 git clone https://github.com/XKY7INE/Password-generator-encryptor.git
 ```
+# Students
+- [Marieth Guillen](https://mail.google.com/mail/u/0/?fs=1&to=mguillen@unal.edu.co&tf=cm)
+- [Over Mejia](https://mail.google.com/mail/u/0/?fs=1&to=omejiar@unal.edu.co&tf=cm)
+- [Ronald Ceballos](https://mail.google.com/mail/u/0/?fs=1&to=rceballosl@unal.edu.co&tf=cm)
+- [Luis Reyes](https://mail.google.com/mail/u/0/?fs=1&to=lureyesr@unal.edu.co&tf=cm)

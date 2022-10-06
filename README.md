@@ -16,7 +16,7 @@ At XKY7INE what we are looking for is mainly a software that allows people to sa
 Offer the user a tool with which they can create, generate and encrypt passwords in a secure way. Mainly, we want to create a software that allows us a greater
 range of customization focused on more secure passwords.
 
-# How download Password-generator-encryptor.zip?
+# How to download Password-generator-encryptor.zip?
 
 ***Option 1***
 ![imagen](https://user-images.githubusercontent.com/114893109/193656710-7881de3d-acb1-4c3c-b2fe-e6d48bc41e46.png)
